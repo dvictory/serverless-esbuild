@@ -251,6 +251,7 @@ export type ScalewayNodeMatcherKey = keyof ScalewayNodeMatcher;
 export type NodeMatcherKey = AwsNodeMatcherKey | AzureNodeMatcherKey | GoogleNodeMatcherKey | ScalewayNodeMatcherKey;
 
 const awsNodeMatcher: AwsNodeMatcher = {
+  'provided.al2023':'node20',
   'nodejs20.x': 'node20',
   'nodejs18.x': 'node18',
   'nodejs16.x': 'node16',
